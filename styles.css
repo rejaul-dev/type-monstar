@@ -156,6 +156,7 @@ button {
   align-items: center; */
   padding: 30px 30px;
   color: white;
+  border: 2px solid #9dffad;
   border-radius: 15px;
   background: rgb(255, 255, 255);
   background: linear-gradient(
@@ -179,6 +180,21 @@ button {
   width: 100%;
   position: fixed;
   top: 0;
+}
+
+/* blog section style */
+.blog-container{
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+.blog-container h1{
+  color: #9dffad;
+}
+.blog-container p{
+  color: rgba(255, 255, 255, 0.758);
+  font-size: 18px;
+  line-height: 30px;
 }
 
 @media only screen and (max-width: 700px) {
