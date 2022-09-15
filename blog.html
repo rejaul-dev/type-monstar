@@ -1,27 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Blog</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <div class="blog-container">
-        <h1>What is the difference between localStorage and sessionStorage?</h1>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem expedita aspernatur ex nihil labore vitae hic, molestias ab dolor est eum asperiores odio recusandae quos a qui. Natus, cupiditate. Ratione saepe, cumque ipsum perferendis qui fugit cum odit et unde, reprehenderit quibusdam facilis placeat quam dolores alias rerum, suscipit ducimus!</p>
-    <br>
-    <h1>What is the difference global scope and local scope?</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta tempore natus officia qui hic sapiente necessitatibus consequuntur dolore, labore minima harum perspiciatis excepturi expedita, similique omnis. Voluptatem, harum dignissimos alias temporibus cumque asperiores veritatis voluptas suscipit iure minus facere eos facilis beatae vero, quam ad dolor assumenda! Eum, quisquam quod.</p>
-    <br>
+      <h1>What is the difference between localStorage and sessionStorage?</h1>
+      <p>
+        Local Storage: This read-only interface property provides access to the
+        Document’s local storage object, the stored data is stored across
+        browser sessions. Similar to sessionStorage, except that localStorage
+        data gets cleared when the page session ends – that is when the page is
+        closed. It is cleared when the last “private” tab of a browser is closed
+        (localStorage data for a document loaded in a private browsing or
+        incognito session).
+        <br />
 
-    <h1>What is JavaScript event loop?</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga voluptatem laboriosam impedit corporis deserunt ea itaque earum harum voluptas molestias ullam sint aliquid accusamus voluptate, cupiditate iure porro hic nostrum debitis vero magnam atque doloribus ipsum repellendus. Corporis aliquid aut debitis, officia error aspernatur alias et ullam, libero, consectetur veritatis!</p>
-    <br>
+        Local Storage: It’s session-based and works per window or tab. This
+        means that data is stored only for the duration of a session, until the
+        browser (or tab) is closed
+      </p>
+      <br />
+      <h1>What is the difference global scope and local scope?</h1>
+      <p>
+        A global variable has global scope. A global variable is accessible from
+        anywhere in the code. Local Scope - Local scope contains things defined
+        inside code blocks. A local variable has local scope.
+      </p>
+      <br />
 
-    <h1>How many many to find undefined in javascript?</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis unde maxime iure error eaque eligendi provident iusto asperiores quia! Cumque, quisquam facere. Quibusdam ad explicabo officia, id dolore facere fugit?</p>
+      <h1>What is JavaScript event loop?</h1>
+      <p>
+        JavaScript has a runtime model based on an event loop, which is
+        responsible for executing the code, collecting and processing events,
+        and executing queued sub-tasks.
+      </p>
+      <br />
+
+      <h1>How many many to find undefined in javascript?</h1>
+      <p>
+        8 ways to get undefine in JavaScript: <br> 1. variable that is not initialize
+        will give undefined <br> 2. function with no return <br> 3. parameter that is not
+        passed will be undefined <br> 4. if return nothing on the right side will
+        return undefined <br> 5. property that doesn't exist will give you undefined <br>
+        6. accessing array elements outside of the index range <br> 7. deleting an
+        element inside an array <br> 8. set a value directly to undefined
+      </p>
     </div>
-</body>
+  </body>
 </html>
